@@ -1,0 +1,10 @@
+Package: com.linkednodes.messagur
+Name: messagur
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: More Settings in Messenger
+Maintainer: Mandeep Singh
+Author: Mandeep Singh
+Section: Tweaks
+Version: 0.0.1-33
+Installed-Size: 72
