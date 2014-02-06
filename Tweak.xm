@@ -120,8 +120,8 @@ UILabel *fromLabel;
 
         fromLabel = MSHookIvar<UILabel *>(self, "_fromLabel");
 
-        [names setObject:textfield.text forKey:fromLabel.text];
-        [names writeToFile:namePath atomically:YES];
+        // [names setObject:textfield.text forKey:fromLabel.text];
+        // [names writeToFile:namePath atomically:YES];
 
         fromLabel.text = textfield.text;
         
